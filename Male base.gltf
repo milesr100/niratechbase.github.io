@@ -1,0 +1,141 @@
+{
+  "accessors": [
+    {
+      "name": "Group1_1_0_positions",
+      "componentType": 5126,
+      "count": 24461,
+      "min": [
+        -5.84250020980835,
+        -0.05660000070929527,
+        -1.8530999422073364
+      ],
+      "max": [
+        5.84250020980835,
+        20.684099197387695,
+        1.9170000553131104
+      ],
+      "type": "VEC3",
+      "bufferView": 0,
+      "byteOffset": 0
+    },
+    {
+      "name": "Group1_1_0_normals",
+      "componentType": 5126,
+      "count": 24461,
+      "min": [
+        -0.9999284148216248,
+        -0.9999258518218994,
+        -0.9999977946281433
+      ],
+      "max": [
+        0.99992436170578,
+        0.9998209476470947,
+        0.9999904036521912
+      ],
+      "type": "VEC3",
+      "bufferView": 1,
+      "byteOffset": 0
+    },
+    {
+      "name": "Group1_1_0_indices",
+      "componentType": 5123,
+      "count": 146748,
+      "min": [
+        0
+      ],
+      "max": [
+        24460
+      ],
+      "type": "SCALAR",
+      "bufferView": 2,
+      "byteOffset": 0
+    }
+  ],
+  "asset": {
+    "generator": "obj2gltf",
+    "version": "2.0"
+  },
+  "buffers": [
+    {
+      "uri": "Male base_data.bin",
+      "byteLength": 880560
+    }
+  ],
+  "bufferViews": [
+    {
+      "name": "bufferView_0",
+      "buffer": 0,
+      "byteLength": 293532,
+      "byteOffset": 0,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "name": "bufferView_1",
+      "buffer": 0,
+      "byteLength": 293532,
+      "byteOffset": 293532,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "name": "bufferView_2",
+      "buffer": 0,
+      "byteLength": 293496,
+      "byteOffset": 587064,
+      "target": 34963
+    }
+  ],
+  "materials": [
+    {
+      "name": "default",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.5,
+          0.5,
+          0.5,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 1
+      },
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": false
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Group1_1",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1
+          },
+          "indices": 2,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "Group1",
+      "mesh": 0
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}

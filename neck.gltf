@@ -1,0 +1,255 @@
+{
+  "accessors": [
+    {
+      "name": "eyeball_m-Mesh_0_positions",
+      "componentType": 5126,
+      "count": 6490,
+      "min": [
+        -0.04806699976325035,
+        0.16259899735450745,
+        0.0667169988155365
+      ],
+      "max": [
+        0.04806699976325035,
+        0.1921679973602295,
+        0.095769003033638
+      ],
+      "type": "VEC3",
+      "bufferView": 0,
+      "byteOffset": 0
+    },
+    {
+      "name": "eyeball_m-Mesh_0_normals",
+      "componentType": 5126,
+      "count": 6490,
+      "min": [
+        -0.9951240420341492,
+        -0.9900479316711426,
+        -0.9999324083328247
+      ],
+      "max": [
+        0.9951240420341492,
+        0.9900479316711426,
+        0.9999211430549622
+      ],
+      "type": "VEC3",
+      "bufferView": 1,
+      "byteOffset": 0
+    },
+    {
+      "name": "eyeball_m-Mesh_0_indices",
+      "componentType": 5123,
+      "count": 9792,
+      "min": [
+        0
+      ],
+      "max": [
+        6489
+      ],
+      "type": "SCALAR",
+      "bufferView": 3,
+      "byteOffset": 0
+    },
+    {
+      "name": "Head_male-Mesh_0_positions",
+      "componentType": 5126,
+      "count": 18336,
+      "min": [
+        -0.15353800356388092,
+        -0.10086099803447723,
+        -0.11851699650287628
+      ],
+      "max": [
+        0.15353800356388092,
+        0.2881760001182556,
+        0.1328119933605194
+      ],
+      "type": "VEC3",
+      "bufferView": 0,
+      "byteOffset": 77880
+    },
+    {
+      "name": "Head_male-Mesh_0_normals",
+      "componentType": 5126,
+      "count": 18336,
+      "min": [
+        -0.9996869564056396,
+        -0.9983513951301575,
+        -0.9989138841629028
+      ],
+      "max": [
+        0.9996869564056396,
+        0.9990682601928711,
+        0.9999128580093384
+      ],
+      "type": "VEC3",
+      "bufferView": 1,
+      "byteOffset": 77880
+    },
+    {
+      "name": "Head_male-Mesh_0_texcoords",
+      "componentType": 5126,
+      "count": 18336,
+      "min": [
+        0.006308999843895435,
+        0.0067330002784729
+      ],
+      "max": [
+        0.9936910271644592,
+        0.6380069255828857
+      ],
+      "type": "VEC2",
+      "bufferView": 2,
+      "byteOffset": 0
+    },
+    {
+      "name": "Head_male-Mesh_0_indices",
+      "componentType": 5123,
+      "count": 27504,
+      "min": [
+        0
+      ],
+      "max": [
+        18335
+      ],
+      "type": "SCALAR",
+      "bufferView": 3,
+      "byteOffset": 19584
+    }
+  ],
+  "asset": {
+    "generator": "obj2gltf",
+    "version": "2.0"
+  },
+  "buffers": [
+    {
+      "uri": "neck_data.bin",
+      "byteLength": 817104
+    }
+  ],
+  "bufferViews": [
+    {
+      "name": "bufferView_0",
+      "buffer": 0,
+      "byteLength": 297912,
+      "byteOffset": 0,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "name": "bufferView_1",
+      "buffer": 0,
+      "byteLength": 297912,
+      "byteOffset": 297912,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "name": "bufferView_2",
+      "buffer": 0,
+      "byteLength": 146688,
+      "byteOffset": 595824,
+      "byteStride": 8,
+      "target": 34962
+    },
+    {
+      "name": "bufferView_3",
+      "buffer": 0,
+      "byteLength": 74592,
+      "byteOffset": 742512,
+      "target": 34963
+    }
+  ],
+  "materials": [
+    {
+      "name": "Default",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.5,
+          0.5,
+          0.5,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 1
+      },
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": false
+    },
+    {
+      "name": "Default-2",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.5,
+          0.5,
+          0.5,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 1
+      },
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": false
+    }
+  ],
+  "meshes": [
+    {
+      "name": "eyeball_m-Mesh",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1
+          },
+          "indices": 2,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Head_male-Mesh",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 3,
+            "NORMAL": 4,
+            "TEXCOORD_0": 5
+          },
+          "indices": 6,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "eyeball_m",
+      "mesh": 0
+    },
+    {
+      "name": "Head_male",
+      "mesh": 1
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0,
+        1
+      ]
+    }
+  ]
+}
